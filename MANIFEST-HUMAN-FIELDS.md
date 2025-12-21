@@ -1,7 +1,16 @@
-# OPTIONAL MANIFEST FIELDS FOR COPYRIGHT SUPPORT (AIP Standard)
+# OPTIONAL MANIFEST FIELDS FOR HUMAN AUTHORSHIP DOCUMENTATION
+(AIFP Standard — AIFX)
 
-These optional fields may be added to `manifest.json` for AIP:
+The following optional fields MAY be included in an AIFP `manifest.json`
+to document **declared human involvement** in AI-first project workflows.
 
+These fields are intended to support transparency, attribution,
+and authorship context. They do not assert legal conclusions
+outside the documented creation process.
+
+## Optional Fields
+
+```json
 "human_authorship_statement": "",
 "human_signature": "",
 "creator_email": "",
@@ -9,4 +18,3 @@ These optional fields may be added to `manifest.json` for AIP:
 "human_editing_steps": [],
 "human_curated_output": true
 
-These fields help creators document human involvement throughout the project timeline and asset workflow.
